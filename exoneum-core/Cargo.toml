@@ -10,9 +10,9 @@ publish = false
 
 [dependencies]
 display_derive = "0.0.0"
-exonum = "0.7.0"
+exonum = "0.7.1"
 exonum-time = "0.7.0"
-exonum-configuration = "0.7.0"
+exonum-configuration = { version = "0.7.0", path = "../configuration" }
 failure = "0.1.1"
 failure_derive = "0.1.1"
 iron = "0.6.0"
@@ -29,7 +29,7 @@ enum-primitive-derive = "0.1.2"
 num-traits = "0.2.2"
 chrono = "0.4.2"
 pnet = "0.21.0"
-crust = "0.30.0"
+# crust = "0.30.0"
 
 [dev-dependencies]
 exonum-testkit = "0.7.0"
